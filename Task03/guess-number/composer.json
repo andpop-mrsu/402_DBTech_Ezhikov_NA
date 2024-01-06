@@ -1,0 +1,29 @@
+{
+    "name": "yukio/guess-number",
+    "autoload": {
+        "psr-4": {
+            "Yukio\\GuessNumber\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Yukiowtnb",
+            "email": "124426799+Yukiowtnb@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.22"
+    }
+,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "bin": [
+        "bin/guess-number.php"
+    ]
+}
